@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+     <style>
+        .nav-bar{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: #69aaa07e;
+        }
+        .nav-div{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           transition: 3s;
+        }
+        .nav-div:hover{
+            color: white;
+        }
+         .logo{
+            font-size: 50px;
+            font-weight: 600;
+            color: red;
+         }
+         li{
+            list-style: none;
+            display: inline-block;
+            color: rgb(158, 13, 129);
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 25px;
+            margin-left: 12px;
+         }
+         img{
+            width: 100%;
+            height: 100%;
+         }
+         footer {
+            display: grid;
+            grid-template-columns: 3fr  3fr 3fr 3fr;
+            background-color: black;
+            color:white;
+            font-family: Arial;
+            font-size: 16px;
+            padding: 20px;
+        }
+        footer span {
+            display: block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .footer-title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+     </style>
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-div">
+                <div class="logo">ROOT</div>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="./folder.htm">Folder</a>
+                    </li>
+                    <li class="bi bi-person"></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <img src="./public/images/car1.png">
+    </section>
+
+   
+        <footer id="contact">
+            <div>
+                <span class="footer-title">Get to Know Us</span>
+                <span>About Us</span>
+                <span>Careers</span>
+                <span>Press Releases</span>
+                <span>Amazon Science</span>
+            </div>
+            <div>
+                <aside>
+                    <span class="footer-title">Connect with Us</span>
+                    <span class="bi bi-facebook">  Facebook</span>
+                    <span class="bi bi-twitter-x"> Twitter</span>
+                    <span class="bi bi-instagram"> Instagram</span>
+                </aside>
+            </div>
+            <div>
+                <span class="footer-title">Make Money with Us</span>
+                <span>Sell on Amazon</span>
+                <span>Sell under Amazon Accelerator</span>
+                <span>Protect and Build Your Brand</span>
+                <span>Amazon Global Selling</span>
+                <span>Become an Affiliate</span>
+                <span>Fulfilment by Amazon</span>
+                <span>Advertise Your Products</span>
+                <span>Amazon Pay on Merchants</span>
+            </div>
+            <div>
+                <span class="footer-title">Let Us Help You</span>
+                <span>COVID-19 and Amazon</span>
+                <span>Your Account</span>
+                <span>Returns Centre</span>
+                <span>Recalls and Product Safety Alerts</span>
+                <span>100% Purchase Protection</span>
+                <span>Amazon App Download</span>
+                <span>Help</span>
+            </div>
+        </footer>
+   
+</body>
+</html>
